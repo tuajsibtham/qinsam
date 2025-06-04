@@ -1,0 +1,183 @@
+
+
+
+body{
+
+background-image: url("BG.gif");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+
+
+
+.logo{
+
+
+    width: 100%;
+
+    height: 100%;
+
+text-align: center;
+
+position: sticky;
+position:-webkit-sticky;
+top:10px;
+
+
+}
+
+
+
+.logo img {
+
+
+width:20%;
+height:auto;
+text-align: center;
+position: sticky;
+position:-webkit-sticky;
+top:10px;
+
+
+}
+
+
+
+
+ #text {
+
+font-size: 30px;
+text-align: center;
+font-family: 'Grenze', serif;
+color:lightskyblue;
+
+}
+
+#luachon{
+
+    width: 100%;
+}
+
+
+
+
+#luachon #title p {
+
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+margin-top: 20%;
+font-family: 'Bungee Shade', cursive;
+
+
+
+
+animation: chu 8s 200;
+
+}
+
+@keyframes chu {
+
+0%{
+color:chartreuse;
+margin-bottom: -50px;
+
+
+}
+30%{
+color: rgb(119, 183, 255);
+margin-bottom: -35px;
+letter-spacing: 2px;
+font-size: 27px;
+}
+
+50%{
+    color: rgb(255, 0, 191);
+    margin-bottom: -50px;
+    letter-spacing: 5px;
+    font-size: 30px;
+
+}
+
+
+80%{
+
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    color: blue;
+    font-size: 30px;
+}
+
+100%{
+    color:chartreuse;
+    margin-bottom: -50px;
+
+}
+
+
+}
+
+
+#luachon img{
+width: 30%;
+position: absolute;
+left: 36%;
+top:50%;
+
+}
+
+.method{
+
+float: left;
+width: 50%;
+
+text-align: center;
+}
+
+.phuongphap: ::after{
+
+::content:"";
+display: table;
+clear:both;
+
+}
+
+.method #cafe img{
+
+width: 43%;
+
+}
+.method #tim img{
+
+
+    width: 54%;
+}
+
+
+.method a{
+
+text-decoration: none;
+
+}
+
+.method:hover{
+
+background-color: rgb(255, 125, 223);
+opacity: .90;
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+border-top-left-radius: 180%;
+border-top-right-radius: 180%;
+
+}
+
+audio{
+width: 25%;
+
+margin-top: 20%;
+    margin-left: 39%;
+}
