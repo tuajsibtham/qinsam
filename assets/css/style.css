@@ -1461,3 +1461,59 @@ audio{
         transform: translateY(-2000px);
     }
 }
+
+
+
+
+
+
+
+
+/* Day la doan cuoi */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3%;
+}
+.waviy span {
+    font-family: auto;
+    position: relative;
+    display: inline-block;
+    color: #a0c6ff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    margin: 0.8%;
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+
