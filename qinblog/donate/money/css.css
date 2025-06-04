@@ -1,0 +1,98 @@
+
+body{
+
+background-image: url("nen.gif");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+
+.logo{
+    
+width: 50%;
+text-align: center;
+margin-left: 25%;
+margin-bottom: 5%;
+}
+
+.logo img{
+width: 40%;
+
+
+}
+
+#loicamon{
+    
+    width: 100%;
+}
+
+#loicamon p{
+
+text-align: center;
+font-size: 200%;
+color: deepskyblue;
+margin-bottom: 10%;
+font-family: 'Dancing Script', cursive;
+}
+
+
+.content{
+
+margin-top: -25px;
+
+
+}
+
+
+
+
+#ten{
+width: 21%;
+float: left;
+text-align: center;
+margin-left: 3%;
+
+transition: all 2s ease-in-out;
+
+}
+
+#ten:hover{
+
+transform:rotate(360deg);
+background-color: hotpink;
+border-radius: 10%;
+
+}
+
+#ten a{
+text-decoration: none;
+
+}
+#ten img{
+width: 80%;
+}
+#ten p{
+text-align: center;
+font-size: 20px;
+color: fuchsia;
+
+}
+.camon{
+width: 100%;
+}
+.camon img{
+width: 25%;
+text-align: center;
+margin-right: 20%;
+margin-left: 38%;
+margin-top: -3%;
+}
+audio{
+    width: 50%;
+position: absolute;
+left: 25%;
+
+}
