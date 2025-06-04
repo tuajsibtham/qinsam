@@ -157,7 +157,7 @@ text-align: center;
     border-top: 4px solid #ff68c0;
   border-bottom: 4px solid #910071;
   padding: 6px 0; 
-  transform: scale(3.3);
+  transform: scale(3,3);
   background-image:url("2.gif");
 background-size: cover;
 width: 171px;
