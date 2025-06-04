@@ -1,0 +1,144 @@
+
+
+
+body{
+
+    background-image: url("background.gif");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#google_translate_element{
+
+text-align: center;
+
+
+}
+
+
+
+.logo{
+  text-align: center;
+  width: 30%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30px;
+  margin: auto;
+  }
+  
+  .logo img{
+  
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  
+  }
+
+.title{
+
+text-align: center;
+width: fit-content;
+position: relative;
+top: 20px;
+margin: auto;
+width: 100%;
+
+
+}
+
+.title img{
+
+text-align: center;
+width: 70%;
+height: 100%;
+
+}
+
+.noidung{
+
+width: fit-content;
+text-align: center;
+position: relative;
+margin: auto;
+top: 50px;
+}
+
+.noidung h1{
+
+color:mediumvioletred;
+font-size: 29px;
+font-family: 'Dancing Script', cursive;
+background: -webkit-linear-gradient(120deg, #08ffb1,#eb2dff );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+
+}
+
+.noidung p{
+
+color:honeydew;
+font-size: 30px;
+font-family: 'Grenze Gotisch', cursive;
+background: -webkit-linear-gradient(120deg, #0070cc,#ff00c8 );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+
+
+}
+
+#music {
+
+    width: 100%;
+    height: 400px;
+    background-image: url("bottom.gif");
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+
+position: sticky;
+    position: -webkit-sticky;
+    bottom: 30px;
+    margin: auto;
+
+
+
+}
+
+#music audio{
+
+margin-top: 10%;
+width: 50%;position: relative;
+right: -25%;
+top:50%;
+
+
+
+}
+
+.home{
+
+    width: 100%;
+    height: 20%;
+margin-top: 15%;
+
+}
+
+.home img{
+
+  width: 50%;
+border-radius: 20%;
+  margin-left: 25%;
+
+  opacity: 70%;
+
+
+}
