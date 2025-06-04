@@ -1,0 +1,197 @@
+
+
+
+
+body {
+background-image: url("BG video.gif");
+background-attachment:fixed;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+#google_translate_element{
+
+text-align: center;
+
+
+}
+
+
+
+
+
+
+.logo{
+
+    text-align: center;
+
+    
+}
+
+
+
+
+#menu{
+
+       
+
+        text-align: center;
+
+}
+
+
+#menu ul{
+
+        list-style-type: none;
+        text-align: center; 
+  padding-inline-start: 0px
+         
+}
+#menu ul li{
+
+        display: inline-table;
+        width: 200px;   
+        height: 50px;
+        line-height: 50px;
+        border: 2px solid rgb(25, 163, 255);
+        border-radius: 20px;
+        
+        background-image: url("3.gif");
+        background-attachment: fixed;
+        background-position:bottom ;
+        background-size: cover;
+        background-repeat:round;
+        margin: 1.5%;
+}
+#menu ul li a {
+
+            text-decoration: none;
+            color: rgb(66, 211, 255);
+         font-family: 'Berkshire Swash', cursive;
+            display: block;
+            font-size: 45px;
+            font-style:initial;
+            transition: 0.1s ease-in-out;
+         text-align: center;
+           
+            
+
+}
+
+#menu ul li a:hover {
+
+  
+    color:rgb(255, 255, 255);
+  background-image: url("4.gif");
+  background-size: cover ;
+  padding: 6px 0; 
+  transform: scale(1.1);
+  border-top: 4px inset #0077ff;
+  border-bottom: 8px outset #00aeff;
+  border-left: 5px groove #ffb5e0;
+  border-right: 5px groove #99ffee;
+  border-radius: 300px;
+}
+
+}
+
+<...! Doan 2 chu thich cho nut chinh...!>
+
+
+
+     #main{
+     text-align:center;
+    width:100%;
+     
+     
+     }
+     
+     #main ul{
+
+        list-style-type: none;
+        text-align: center; 
+         margin-top: 2%;
+            padding-inline-start: 0px
+
+         
+}
+#main ul li{
+
+        display: inline-table;
+        width: 310px;   
+        height: 150px;
+        line-height: 150px;
+        border: 2px solid rgb(255, 96, 194);
+        border-radius: 600px;
+      
+        background-image: url("spectrum.gif");
+        background-attachment: fixed;
+        background-position:center ;
+        background-size: 95px;
+        background-repeat:round;
+       
+        color: red;
+        text-align: center;
+        margin: 3%;
+}
+#main ul li a {
+
+            text-decoration: none;
+          
+          font-family: 'Bungee Inline', cursive;
+            display: block;
+            font-style:oblique;
+            transition: 0.1s ease-in-out;
+            font-size: 45px;
+            text-align: center;
+           text-transform: uppercase;
+	        color: white;
+	
+
+}
+
+#main ul li a:hover {
+
+  
+    color:rgb(255, 71, 200);
+    border-top: 4px solid #ff68c0;
+  border-bottom: 4px solid #910071;
+  padding: 6px 0; 
+  transform: scale(1.1);
+  background-image:url("2.gif");
+background-size: cover;
+width: 300px;
+height: 150px;
+background-position: center;
+border-radius:60px;
+}
+
+
+.intro{
+
+    height: auto;
+    width: 100%;
+margin-top: 5px;
+
+
+}
+
+.intro img{
+
+text-align: center;
+height: auto;
+width: 100%;
+}
+
+
+audio{
+
+width: 20%;
+margin-left: 40%;
+background-color: #00aeff;
+border-radius: 100%;
+opacity: 50%;
+}
