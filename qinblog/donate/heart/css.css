@@ -1,0 +1,68 @@
+.link{
+
+    margin-top: 5%;
+
+width: 100%;
+height: 300px;
+text-align: center;
+
+
+}
+.link #anh{
+width: 50%;
+float: left;
+
+}
+.link #anh #anh1{
+
+width: 60%;
+
+}
+.link #anh #anh2{
+
+width: 105%;
+margin-bottom: 20px;
+
+}
+.link #anh p{
+
+text-align: center;
+font-size: 200%;
+text-align: center;
+}
+
+
+
+.link a{
+
+text-decoration: none;
+text-align: center;
+}
+
+#anh:hover{
+
+background-color: royalblue;
+
+}
+
+.loicamon{
+width: 100%;
+height: 300px;
+
+margin-top: 25%;
+
+
+}
+.loicamon p{
+font-size: 40px;
+text-align: center;
+margin-top: 50px;
+color: rgb(255, 0, 221);
+
+}
+.loicamon img{
+
+    width: 30%;
+margin-left: 33.3%;
+opacity: 70%;
+}
