@@ -126,15 +126,14 @@ text-align: center;
         line-height: 150px;
         border: 2px solid rgb(255, 96, 194);
         border-radius: 600px;
-      
         background-image: url("spectrum.gif");
-        background-attachment: fixed;
-        background-position:center ;
-        background-size: 95px;
-        background-repeat:round;
-        color: red;
-        text-align: center;
-        margin: 3%;
+	background-attachment: fixed;
+	background-position: center;
+    	background-repeat: no-repeat;
+   	background-size: cover;
+    	position: relative;
+	margin: 2%;
+	
 }
 #main ul li a {
 
