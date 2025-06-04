@@ -168,7 +168,7 @@ audio{
     font-size: 18px;
     font-weight: 700;
 	font-family:cursive;
-	font-size: 200%;
+	font-size: 250%;
 }
 
 .page-bioline {
@@ -183,7 +183,7 @@ audio{
 
 .page-item-each {
     color: #000000;
-    font-family:cursive;
+    font-family:fantasy;
     font-size: 150%;
     font-weight: 500;
     text-transform: none;
