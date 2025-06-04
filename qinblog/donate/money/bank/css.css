@@ -1,0 +1,81 @@
+
+body{
+
+margin-top: 100px;
+
+
+}
+
+
+h1{
+text-align: center;
+
+font-size: 30px;
+}
+
+
+h2{
+text-align: center;
+font-size: 40px;
+margin-top: -50px;
+
+}
+
+.noidia{
+width: 50%;
+background:black;
+float: left;
+}
+
+.quocte{
+
+width: 50%;
+background:black;
+float: right;
+
+}
+.conten{
+
+width: 100%;
+
+margin-top: 100px;
+
+}
+
+#chon{
+text-align: center;
+margin-top: 50px;
+
+}
+
+
+p{
+
+
+text-align: center;
+font-size: 30px;
+
+}
+
+
+
+
+#chon{
+
+font-size: 30px;
+
+color: whitesmoke;
+
+}
+#name{
+
+color: violet;
+
+}
+#code{
+
+color: whitesmoke;
+margin-left: 2px;
+font-size: 25px;
+
+}
