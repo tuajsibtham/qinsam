@@ -137,16 +137,16 @@ text-align: center;
 }
 #main ul li a {
 
-            text-decoration: none;          
-          font-family: 'Bungee Inline', cursive;
-            display: block;
-            font-style:oblique;
-            transition: 0.1s ease-in-out;
-            font-size: 20px;
-            text-align: center;
-           text-transform: uppercase;
-	        color: white;
-	
+    text-decoration: none;
+    font-family: 'Bungee Inline', cursive;
+    display: block;
+    font-style: oblique;
+    transition: 0.1s ease-in-out;
+    font-size: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #ef00ff;
 
 }
 
