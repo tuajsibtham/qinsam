@@ -1,0 +1,97 @@
+
+
+body{
+
+    background-image: url("nenweb.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+
+text-align: center;
+margin-right: 2%;
+position: sticky;
+top:0;
+display: flex;
+justify-content: center;
+
+
+}
+
+.intro{
+
+    width: 100%;
+    
+
+}
+
+.intro #namegroup{
+
+
+width: fit-content;
+
+}
+
+
+
+
+.intro #namegroup img{
+
+        width:100%;
+        height: auto;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
+}
+#group {
+
+    text-align: center;
+    margin-right: 1.2%;
+
+}
+#group img{
+
+text-align: center;
+width: 10%;
+height: auto;
+}
+
+.page{
+text-align: center;
+
+}
+.page img{
+
+    text-align: center;
+width: 20%;
+height: auto;
+
+}
+
+ p{ 
+
+font-size: 80px;
+text-align: center;
+color: white;
+margin: auto;
+font-family: 'Creepster', cursive;
+
+
+}
+
+
+
+h1{
+
+    color: white;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 50px;
+
+}
+
