@@ -1,61 +1,84 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/qin.png" alt="qin sam logo" />
+        <p>@ Liên Hệ Nhanh Tới Qin Sam</p>
+      </div>
 
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
 
-<title>Messenger to Qin Sam</title>
+      <ul>
+        <li>
+		<a href="https://zalo.me/0342473691">
+          <img src="./assets/zalo.png" alt="ZALO" width="100" height="100">
+         </a>
+        </li>
 
-<link rel="stylesheet" href="css.css">
+        <li>
+		<a href="https://www.facebook.com/qinsamofficial/">
+          <img src="./assets/facebook.png" alt="Facebook" width="100" height="100">
+		 </a>
+		 </li>
+        <li>
+		<a href="https://wa.link/xlc6om">
+          <img src="./assets/Whatsapp.png" alt="WhatsApp" width="100" height="100">
+		 </a>
+        </li>
+		
 
-</head>
-<body>
-<a href="https://qinsam.netlify.app/qinblog/qinblog">
-<div class="logo"> 
-<img src="LOGO.gif">
-
-</div>
-</a>
-
-<audio autoplay controls loop>
-       
-    <source src="BG.mp3" type="audio/mpeg">
- 
-  </audio>
-
-<!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
+        <!--<li>
+          <a href="https://amazon.com.br/s?me=ARU9UAY6HLGCD&ref=sf_seller_app_share_new" target="_blank">Amazon</a>
+        </li>-->
+      </ul>
+	  <!--
+      <div id="social-links">
+        <a
+          href="https://www.instagram.com/sportstorebr.oficial/"
+          target="_blank"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.facebook.com/share/19JdZHunxc/" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="mailto:sportstore.oficial@outlook.com">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </div>
+	  -->
+      <footer>
+       @ Qin Sam
+      </footer>
     </div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "354800448933022");
-      chatbox.setAttribute("attribution", "biz_inbox");
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v10.0'
-        });
-      };
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
